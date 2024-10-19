@@ -52,7 +52,11 @@ Si consideri un sistema in cui sono stati definiti due momenti angolari $J^{(1)}
 Si consideri l'operatore $J = J^{(1)} + J^{(2)}$, anch'essa commuta con $H$. Dunque uno stato del sistema a livello energetico $n$ potrà essere descritto da $j, m$.$\\$
 Questi 6 numeri quantici non sono indipendenti.$\\$
 Fissiamo $j_1$ e $j_2$, allora ci possiamo limitare al sottospazio di cui $\ket{m_1, m_2}$ è base. Tale spazio ha dimensione $(2j_1 + 1)(2j_2 + 1)$. $\\$
-Dobbiamo dimostrare che anche $\ket{j, m}$ è base di tale spazio. Determiniano i valori possibili di $j$.$\\$
+Dobbiamo dimostrare che anche $\ket{j, m}$ è base di tale spazio. 
+
+DA SALTARE
+-----------------
+Determiniano i valori possibili di $j$.$\\$
 Gli autovalori di $J^2$ sono limitati da quelli di $(J^{(1)} + J^{(2)})^2$, più precisamente:
 $$J^2 = J^{(1)2} + J^{(2)2} + 2J^{(1)}J^{(2)}$$
 
@@ -61,6 +65,8 @@ $$\lambda_j^2 = \lambda_{j_1}^2 + \lambda_{j_2}^2 + 2\lambda_{j_1}\lambda_{j_2} 
 
 Essendo che $-1 \leq \cos \theta \leq 1$, allora:
 $$|\lambda_{j_1} - \lambda_{j_2}| \leq \lambda_j \leq \lambda_{j_1} + \lambda_{j_2}$$
+
+----------------------
 
 Il che si ha solo se:
 $$|j_1 - j_2| \leq j \leq j_1 + j_2$$

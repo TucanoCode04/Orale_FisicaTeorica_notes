@@ -91,7 +91,7 @@ $$ |\braket{\psi(T)|\psi_m^{f}}|^2 = 0 \space \space [10.y]$$
 Solo che la $[10.x]$ è giusta solo al primo ordine in $V$, mentre la $[10.y]$ è giusta al secondo. Quindi la $[10.x]$ non ci dice nulla(in quanto sarebbe valida anche per trasformazioni non adiabatiche), il punto cruciale è la cancellazione dei termini di primo ordine nell'equazione $[10.z]$ che ci dice che non ci saranno transizioni ad altri stati(rimarrà nello stato iniziale come volevamo).$\\$
 Questo dimostra che se i cambiamenti nell'Hamiltoniana sono adiabatici e molto lenti(così che la teoria perturbativa di primo ordine sia valida), allora il sistema rimarrà nello stato iniziale quindi non ci saranno transizioni.$\\$
 
-Ma se i cambiamenti fossero sempre grandi, ma più grandi? In questo caso basta suddividere l'intervallo di tempo $T$ in $N$ intervalli di tempo, così che il cambiamento nell'Hamiltoniana durant eun singolo intervallo($\Delta V$) sia dell'ordine di $\frac{V}{N}$. Se $N$ è grande, allora $\delta V$ sarà piccolo e la teoria perturbativa sarà valida.$\\$
+Ma se i cambiamenti fossero sempre graduali, ma più grandi? In questo caso basta suddividere l'intervallo di tempo $T$ in $N$ intervalli di tempo, così che il cambiamento nell'Hamiltoniana durante un singolo intervallo($\Delta V$) sia dell'ordine di $\frac{V}{N}$. Se $N$ è grande, allora $\delta V$ sarà piccolo e la teoria perturbativa sarà valida.$\\$
 Se, quindi l'ampiezza(Equazione $[10.z]$) è nel primo ordine di perturbazione, allora la transizione di ampiezza sarà del tipo:
 $$ N \left( \frac{V}{N} \right) \rightarrow V$$
 
@@ -103,7 +103,7 @@ $$ N \left( \frac{V}{N} \right)^2 \rightarrow \frac{V^2}{N}$$
 Che nel limite $N \rightarrow \infty$ va a 0 indipendentemente da quanto grande sia $V$.$\\$
 
 ### 10.1.3 Esempio
-Immaginiamo di avere un elettrone(carica $-e$ e massa $m$) a riposo nell'origine di un sistema di riferimento in cui c'è un campo magnetico di magnitudine $B_0$ costante, am con la direzione che crea un cono di apertura $\alpha$ a velocità angolare costante $\omega$.$\\$
+Immaginiamo di avere un elettrone(carica $-e$ e massa $m$) a riposo nell'origine di un sistema di riferimento in cui c'è un campo magnetico di magnitudine $B_0$ costante, ma con la direzione che crea un cono di apertura $\alpha$ a velocità angolare costante $\omega$.$\\$
 ![alt text](image-3.png)
 
 L'operatore del campo magnetico è:
@@ -116,11 +116,11 @@ Dove $\omega_1 = -\frac{eB_0}{m}$.$\\$
 Gli autospinori dell'Hamiltoniana sono:
 $$ \chi_{+}(t) = \left( \begin{array}{c} \cos(\frac{\alpha}{2}) \\ e^{i\omega t} \sin(\frac{\alpha}{2}) \end{array} \right) \space \space \chi_{-}(t) = \left( \begin{array}{c} -e^{-i\omega t} \sin(\frac{\alpha}{2}) \\ \cos(\frac{\alpha}{2}) \end{array} \right)$$
 
-Rappresentano rispettivamente lo spin up e lo spin down lungo la direzione del campo magnetico B(t).$\\$
+Rappresentano rispettivamente lo spin up e lo spin down lungo la direzione del campo magnetico $B(t)$.$\\$
 I corrispondenti autovalori sono:
 $$ E_{\pm} = \mp \frac{\hbar \omega_1}{2}$$
 
-Supponiamo che l'elettrone parta con lo spin up lungo B(0):
+Supponiamo che l'elettrone parta con lo spin up lungo $B(0)$:
 $$ \chi(0) = \left( \begin{array}{c} \cos(\frac{\alpha}{2}) \\ \sin(\frac{\alpha}{2}) \end{array} \right)$$
 
 La soluzione dell'equazione di Schrödinger dipendente dal tempo è:

@@ -92,6 +92,9 @@ Per quanto si cerhci di creare un'onda monocrmatica, ci sarà sempre una minima 
 Rappresentiamo quindi il pacchetto d'onde come:
 $$\psi(x,t) = \int C(k) e^{i(kx - \omega t)} d^3k$$
 
+DA SALTARE
+---------
+
 Ritornando ad una dimensione, possiamo scrivere:
 $$\psi(x,t) = \int_{k_0 - \Delta k}^{k_0 + \Delta k} C(k) e^{i(kx - \omega(k)t)} dk$$
 
@@ -111,6 +114,8 @@ L'intervallo in cui è sensibilmente diversa da zero è $[-\frac{\pi}{\Delta k},
 Al variare del tempo, il pacchetto si sposterà con velocità $\omega_1 = \frac{p_0}{m}$, che è la velocità di gruppo, quindi la velocità della particella. $\\$
 La funzione d'onda ora è a quadrato sommabile, quindi normalizzabile. $\\$
 $$\int_{-\infty}^{+\infty} |\psi(x,t)|^2 dx = 4|C|^2 \Delta k \int_{-\infty}^{+\infty} \frac{sin^2 \eta}{\eta^2} d\eta $$
+
+----------
 
 Da cui calcolando otteniamo la funziona d'onda normalizzata del pacchetto d'onde:
 $$\psi_{norm}(x,t) = \frac{1}{\sqrt{\pi \Delta k}} \frac{sin(x - \omega_1 t)\Delta k}{x - \omega_1 t} e^{i(k_0 x - \omega_0 t)}$$

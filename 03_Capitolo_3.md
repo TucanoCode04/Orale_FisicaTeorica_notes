@@ -24,7 +24,7 @@ $$F \ket{k} = f_k \ket{k}$$
 Dove tutti gli autovettori $\ket{k}$ sono ortogonali e ammette una decomposizione spettrale:
 $$F = \sum_k f_k \ket{k} \bra{k}$$
 
-Dove $E_k = \ket{k} \bra{k}$ è il proiettore sullo stato $\ket{k} relative all'autovalore $f_k$.
+Dove $E_k = \ket{k} \bra{k}$ è il proiettore sullo stato $\ket{k}$ relative all'autovalore $f_k$.
 Soddisfano el relazioni:
 $$E_k E_j = \delta_{kj} E_k$$
 

@@ -63,6 +63,9 @@ $$\frac{d^2u}{d\theta^2} + cot \theta \frac{du}{d\theta} + \left( \frac{\delta}{
 Ponendo $\delta = l(l+1)$ e $x = cos \theta$ otteniamo l'equazione di Legendre:
 $$(1-x^2) \frac{d^2u}{dx^2} - 2x \frac{du}{dx} + \left( l(l+1) - \frac{m^2}{1-x^2} \right) u = 0$$
 
+DA SALTARE
+----------
+
 Che riscrivendola nella forma standard:
 $$u'' + p(x)u' + q(x)u = 0$$
 
@@ -78,6 +81,8 @@ $$u_2 = au_1(x) log(x-1) + (1-x)^{\frac{-m}{2}} \sum_{n=0}^{\infty} d_n (x-1)^n$
 
 La seconda soluzione non è accettabile in quanto presenta una singolarità logaritmica in $x = 1$. Quindi useremo un *ansatz* per la soluzione:
 $$u(x) = (1-x)^{\frac{m}{2}} \sum_{n=0}^{\infty} \frac{(-l+m)_n(l+m+1)_n}{(1+m)_n} \frac{1}{n!} \left( \frac{1-x}{2} \right)^n$$
+
+------------
 
 La serie si deve troncare garantendo al convergenza in $x = -1$, quindi $l \geq m$. In questo caso la serie si tronca ad un polinomio di grado $l-m$, concluendo le soluzioni accettabili:
 $$u(x) = P_l^m(x)$$

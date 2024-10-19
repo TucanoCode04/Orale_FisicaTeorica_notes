@@ -57,6 +57,9 @@ $$R = \sigma T^4$$
 - *Legge di Wien*: i massimi di intensità(energia in funzione della lunghezza d'onda) seguono una legge di proporzionalità inversa con la temperatura
 $$\lambda_{max}= \frac{\alpha}{T}$$
 
+DA SALTARE
+------------------------------------
+
 Rayleigh e Jeans tentarono di spiegare la radiazione di corpo nero proponendo una legge per l'intensità in funzione della lunghezza d'onda. $\\$
 $$I(\lambda) \propto \frac{T}{\lambda^4}$$
 
@@ -91,7 +94,9 @@ $$\rho(\lambda)= 8\pi \frac{kT}{\lambda^4}$$
 
 Qui la radiazione è trattata come un'onda che, ad ogni frequenza, può essere emessa con qualunque energia. Esso diverge con i risultati sperimentali e diverge per lunghezze d'onda piccole, prevedendo quindi grandi emissioni per lunghezze d'onda dell'ultravioletto e raggi X. Questa viene chiamata *catastrofe ultravioletta*. $\\$
 
-Plancl ipotizzò che la radiazione potesse essere emessa solo a pacchetti discreti di energia, chiamati *quanti*. I quali per ogni frequenza potevano trasportare un'energia $\epsilon = hv$, con $h = 6.62618(4) \cdot 10^{-27}erg \cdot s$ fissata sperimentalmente(ha le dimensioni di un'azione). $\\$
+------------------------------------
+
+Planck ipotizzò che la radiazione potesse essere emessa solo a pacchetti discreti di energia, chiamati *quanti*. I quali per ogni frequenza potevano trasportare un'energia $\epsilon = hv$, con $h = 6.62618(4) \cdot 10^{-27}erg \cdot s$ fissata sperimentalmente(ha le dimensioni di un'azione). $\\$
 Questo modifica il calcolo del valore medio dell'energia degli oscillatori delle pareti in risonanza con la radiazione di frequenza $v$:
 $$\bar{\epsilon} = \frac{\int_0^{\infty} \epsilon_n e^{-\beta \epsilon_n}}{\int_0^{\infty} e^{-\beta \epsilon_n}} = - \frac{d}{d\beta}log \frac{1}{1-e^{-\beta hv}} $$
 
@@ -120,10 +125,14 @@ Empiricamente si osserva che:
 - il numero di elettroni emessi è proporzionale all'intensità della luce 
 - il tempo di emissione degli elettroni è indipendente dall'intensità della luce e sempre inferiore a $10^{-9}s$
 
+DA SALTARE
+--------
 L'ipotesi ondulatoria non riusciva a spiegare questi fenomeni contemporaneamente in quanto diceva che:
 - l'energia che giunge ad un atomo fa vibrare l'elettrone finchè, raggiunta una certa soglia, viene emesso. Quindi l'effetto fotoelettrico si dovrebbe verificare solo per un intensità sufficientemente alta, non per una frequenza sufficientemente alta
 - l'energia cinetica degli elettroni emessi dovrebbe dipendere dall'intensità della luce, non dalla frequenza
 - il tempo di emissione degli elettroni dovrebbe dipendere dall'intensità della luce e sarà sufficientemente lungo
+
+-------
 
 Einstein, quindi, ipotizzò che la luce fosse composta da quanti di energia, chiamati fotoni, che trasportano un'energia $hv$ e con massa a riposo nulla. $\\$
 Oltre all'energia cinetica, il fotone trasporta anche un impulso:
